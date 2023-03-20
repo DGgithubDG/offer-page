@@ -9,7 +9,7 @@ import React from "react";
 
 import Footer from "./footer";
 import Navbar from "./navbar"
-import casino from "../../img/casino.9.jpg";
+import casino from "../../img/pegasino.png";
 
 //import ResponsiveImage from "./img";
 import logo from "../../img/casino.9.jpg";
@@ -83,7 +83,7 @@ const Register = () => {
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2018/02/lake-kawaguchi-with-boat-800x500.jpg" class="d-block w-100" alt="..."/>
+    <img class="img-fluid" src={casino}></img> 
     </div>
     <div class="carousel-item">
       <img src="https://venhoevencs.nl/wp-content/uploads/2022/07/proto-zoop-zeeburg-21-800x500.jpg" class="d-block w-100" alt="..."/>

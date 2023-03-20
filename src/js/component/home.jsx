@@ -10,7 +10,6 @@ import Register from "./register";
 
 import Footer from "./footer";
 import Navbar from "./navbar"
-import casino from "../../img/casino.9.jpg";
 
 //import ResponsiveImage from "./img";
 import logo from "../../img/casino.9.jpg";
