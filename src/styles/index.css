@@ -35,39 +35,3 @@
  
 }
 
-.card{
-}
-
-.card-title{
-    color: rgb(255, 0, 225);
-    animation: color-change 10s infinite;
-}
-
- 
-  @keyframes color-change {
-    0% { color: rgb(234, 255, 47); }
-    20% { color: gold; }
-    40% { color: goldenrod; }
-    60% { color: yellowgreen; }
-    80% { color: greenyellow; }
-    100% { color: rgb(157, 255, 0); }
-  }
-.list-group-item{
-    background-color: rgb(71, 62, 62);
-    color: beige;
-}
-.button{
-   
-
- 
-}
-
-
-
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 2400px) {
-    .card {
-    
-    }
-  }
