@@ -44,6 +44,8 @@ const Register = () => {
     Terms and conditions
   </label>
 </div>
+<button type="button" className="btn btn-success">Confirm</button>
+
       </div>
     </div>
   </div>
