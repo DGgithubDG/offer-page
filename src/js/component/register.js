@@ -17,7 +17,7 @@ import logo from "../../img/casino.9.jpg";
 //create your first component
 const Register = () => {
 	return (
-<div className="card mb-3 text-center" style={{ maxWidth: 540 }}>
+<div className="card mb-3 text-center" style={{ maxWidth: 590 }}>
 
   <div className="row g-0">
     <div className="col-md-4">
@@ -25,25 +25,25 @@ const Register = () => {
     </div>
     <div className="col-md-8">
       <div className="card-body">
-        <h5 className="card-title">Offer Page</h5>
+        <h5 className="card-title">In order to become a customer, I agree to the following</h5>
         <div class="form-check text-center">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+  <input class="form-check-input text-center" type="checkbox" value="" id="flexCheckDefault" />
   <label class="form-check-label" for="flexCheckDefault">
-    Terms and conditions
+    Agree to terms and conditions
   </label>
 </div>
 <div class="form-check text-center">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label" for="flexCheckDefault">
-    Terms and conditions
+Privacy policy & cookies
   </label>
 </div>
 <div class="form-check text-center">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label" for="flexCheckDefault">
-    Terms and conditions
-  </label>
+I am at least 18 years old  </label>
 </div>
+
 <button type="button" className="btn btn-success">Confirm</button>
 
       </div>
